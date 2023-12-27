@@ -14,11 +14,11 @@ JSAnalyze with Go is a sophisticated and robust tool designed for in-depth analy
 
 1. **Repository Cloning**:
    ```
-   git clone https://github.com/yourusername/JSAnalyze-with-Go.git
+   git clone https://github.com/vinzel-ops/JSAnalyze-Go.git
    ```
 2. **Navigating to the Tool's Directory**:
    ```
-   cd JSAnalyze-with-Go
+   cd JSAnalyze-Go
    ```
 3. **Dependency Installation**:
    ```
@@ -28,7 +28,7 @@ JSAnalyze with Go is a sophisticated and robust tool designed for in-depth analy
 ## Usage
 
 ```
-Usage: ./JSAnalyze-with-Go [OPTIONS]
+Usage: ./JSAnalyze-Go [OPTIONS]
 
 Options:
   -u, --urls string        Specify the file path containing JavaScript URLs
@@ -41,7 +41,7 @@ Options:
 ## Example
 
 ```
-./JSAnalyze-with-Go -u urls.txt -s secrets.txt -t 20
+./JSAnalyze-Go -u urls.txt -s secrets.txt -t 20
 ```
 
 This command initiates the analysis of JavaScript files listed in `urls.txt`, seeks hardcoded secrets using regex patterns in `secrets.txt`, and utilizes 20 threads for efficient processing.
